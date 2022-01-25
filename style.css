@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    
+}
+body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 0.5rem;
+    font-size: 1.4rem;
+    color: black;
+}
+.rightup-header {
+    position:absolute;
+    right: 8rem;
+    top: 1.3rem;
+    
+}
+.rightup2-header {
+    position:absolute;
+    padding-right: 1rem;
+    right: 4.5rem;
+    top: 1.2rem;   
+}
+#sign-in {
+    position:absolute;
+    padding-right: 1rem;
+    background-color: rgba(0, 0, 255, 0.6);
+    padding: 0.6rem;
+    right: 1rem;
+    top: 1rem;
+}
+.google { 
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 724px;
+    
+}
+.search-button {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+}
+#search_button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 23px;
+    border: 1px solid rgb(190, 187, 187);
+}
+#linkedin {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 23px;
+    border: 1px solid rgb(190, 187, 187);
+    margin-left: 1.6rem;
+}
+span {
+    position: absolute;
+    top: 57%;
+    left: 42%;
+    right: 800px;
+
+}
+#dil {
+    font-size: 15px;
+    
+}
+.language1 {
+    margin-left: 15rem;
+    font-size:15px;
+}
+.language2 {
+    margin-left: 20rem;
+    font-size:15px;
+
+    
+}
+#search-text {
+    display: block;
+    margin-top: 20px ;
+    margin-left: -120px;
+    width: 550px;
+    height: 44px;
+    border-radius: 23px;
+    padding-left: 45px;
+    border: 1px solid rgb(190, 187, 187);
+    background-image: url(./images/magnifying_glass.jpg), url(./images/google_microphone.png);
+    background-size: contain, 22px;
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 1px ;
+    background-position-x: 10px, 520px;
+    
+    
+}
+input[type="search" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 1px 2px;
+}
+.country {
+    border: 1px solid #e4e4e4;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #f2f2f2;
+    height: 10%;
+}
+#footer-control {
+    display: inline;
+}
+.country {
+    height: 50%;
+    font-size: large;
+    padding-left: 1rem;
+    padding-top: 10px;
+}
+li {
+    list-style: none;
+    display: inline;
+}
+.footer-left {
+    display: inline-block;
+    padding-left: 0.5rem;
+}
+.footer-right {
+    display: inline-block;
+    float: right;
+    padding-right: 1rem;
+}
+.footer-down {
+    padding-top: 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#search_button:hover {
+    border: 1px solid  blue;
+}
+#linkedin:hover {
+    border: 1px solid  blue;
+}
